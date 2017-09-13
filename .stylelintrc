@@ -1,0 +1,4 @@
+{
+  "extends": ”stylelint-config-airbnb",
+  "rules": {}
+}

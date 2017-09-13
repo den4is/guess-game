@@ -1,0 +1,28 @@
+{
+  "name": "guessing-game",
+  "version": "1.0.0",
+  "description": "School project, guessing game",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "stylelint": "^8.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/den4is/guessing-game.git"
+  },
+  "author": "dennis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/den4is/guessing-game/issues"
+  },
+  "homepage": "https://github.com/den4is/guessing-game#readme"
+}
