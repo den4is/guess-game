@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to </title>
+  <link rel="stylesheet" type="text/css" href="css/firstPageStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+</head>
+
+<body class="center grey lighten-4">
+  <div class="content">
+
+    <header class="center grey darken-1">
+      <h4 class="grey-text text-lighten-3 depth-3">Welcome to Lobby</h4>
+    </header>
+
+    <view name="enterView" class="active">
+      <div class="container player">
+        <div class="container inner">
+          <p>Please enter a nickname:</p>
+          <input class="std text center" key="playerName" type="text">
+          <button class="std submit btn action" type="button" onclick="enterGame();"> Use Nickname </button>
+        </div>
+      </div>
+    </view>
+    <view name="startGameView">
+      <div class="button startGame">
+        <p></p>
+        <button class="std submit btn action" id="startGameBtn" onclick="startGame();">Click here to start the game!</button>
+      </div>
+    </view>
+    <view name="chatView" class="active">
+      <div class="container">
+        <div class="chat-container">
+          <textarea readonly class="chat-window" rows="10" cols="50"></textarea>
+          <input id="inputText" type="text">
+          <button class="std send btn action" type="button" id="send">SEND</button>
+        </div>
+      </div>
+    </view>
+    <view name=gameTime class=a>
+      <div class="guessing-game">
+
+        <div class="container">
+
+          <div class="Question-area">
+            <h4>
+              Q <span id="qCount">1</span>:<span id="question"></span>
+            </h4>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <button type="button" class="std submit btn action myGuessBtn" id="btn-a">A</button>
+            </div>
+            <div class="col">
+              <button type="button" class="std submit btn action myGuessBtn" id="btn-b">B</button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <button type="button" class="btn btn-primary myGuessBtn" id="btn-c">C</button>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-primary myGuessBtn" id="btn-d">D</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </view>
+
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/quiz.js"></script>
+<script type="text/javascript" src="js/quiz.views.js"></script>
+<script type="text/javascript" src="js/quiz.chat.js"></script>
+<script type="text/javascript" src="js/quiz.models.js"></script>
+<script type="text/javascript" src="js/quiz.models.Question.js"></script>
+<script type="text/javascript" src="js/quiz.repository.js"></script>
+<script type="text/javascript" src="js/quiz.repository.questions.js"></script>
+<script type="text/javascript" src="js/quiz.game.js"></script>
+
+<!-- <script>
+  $(document).ready(function() {
+    window.init()
+  });
+</script> -->
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8 ">
+  <title>Welcome to GG!</title>
+  <link rel="stylesheet " type="text/css " href="css/firstPageStyle.css ">
+  <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css " />
+</head>
+
+<body class="center grey lighten-4 ">
+  <div class="content ">
+
+    <header class="center grey darken-1 ">
+      <h4 class="grey-text text-lighten-3 depth-3 ">Welcome to GG Lobby</h4>
+    </header>
+
+    <view name="enterView " class="active ">
+      <div class="container player ">
+        <div class="container inner ">
+          <p>Please enter a nickname:</p>
+          <input class="std text center " key="playerName " type="text ">
+          <button class="std submit btn action " type="button "> Use Nickname </button>
+        </div>
+      </div>
+    </view>
+    <br>
+
+    <view name="startGameView " class="active ">
+      <div class="button startGame ">
+        <button class="std submit btn action " id="startGameBtn " onclick="setView(gameTime); ">Click here to start the game!</button>
+      </div>
+    </view>
+    <br>
+    <br>
+
+    <view name="chatView " class="active ">
+      <div class="narrow ">
+        <div class="chat-container ">
+          <textarea readonly class="chat-window " rows="10 " cols="50 "></textarea>
+          <input id="inputText " type="text ">
+          <button class="std send btn action " type="button " id="send ">SEND</button>
+        </div>
+      </div>
+
+      <view name=gameTime>
+        <div class="guessing-game ">
+          <p>gametweweweweweweweime</p>
+        </div>
+      </view>
+
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
+<script type="text/javascript " src="js/firstPage.js "></script>
+
+</html> -->
