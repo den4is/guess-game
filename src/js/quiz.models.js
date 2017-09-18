@@ -1,2 +1,2 @@
-// eslint-disable-next-line 
+// eslint-disable-next-line
 quiz.models = {};

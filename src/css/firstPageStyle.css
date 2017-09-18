@@ -1,0 +1,53 @@
+.content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.narrow {
+  padding: 0;
+}
+
+.chat-container {
+  right: 0px;
+  top: 0px;
+  width: 36%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.chat-container input {
+  width: 60%;
+  margin-left: 6px;
+}
+
+.chat-container button {
+  width: 30%;
+  margin-right: 6px;
+  float: right;
+}
+
+.chat-container textarea {
+  margin: 6px;
+  height: 160px;
+  width: 95%;
+}
+
+.chat-window{
+  resize: none;
+}
+
+view {
+   display: none;
+}
+view.active {
+  display: block;
+}
+
+.guessing-game .Question-area{
+width: 450px;
+}
+
+.guessing-game .myGuessBtn{
+width: 350px;
+}
