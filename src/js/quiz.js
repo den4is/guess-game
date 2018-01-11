@@ -1,9 +1,9 @@
-// namespcae
+// namespace
 
 // eslint-disable-next-line no-unused-vars
 const quiz = {}
 
-  quiz.init = function() {
+  quiz.init = () => {
     console.log('init!');
   }
 
