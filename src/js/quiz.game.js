@@ -31,7 +31,7 @@ function showResult() {
 
 const showNextQuestion = () => {
     if (quiz.repository.questions.length < 1) {
-        alert('no more questions available, sorry');
+        alert('no more questions available || do not double click || restart, sorry');
     } else {
         currentQuestion = quiz.repository.questions.pop();
         displayQuestion(currentQuestion);
@@ -47,7 +47,7 @@ const showNextQuestion = () => {
     if (quiz.repository.questions.length === 0) {
       setTimeout(showResult, 1000);
     } else {
-      setTimeout(showNextQuestion, 1000);
+      setTimeout(showNextQuestion, 1);
     }
   };
 
